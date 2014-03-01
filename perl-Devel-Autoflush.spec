@@ -1,9 +1,8 @@
-%define upstream_name    Devel-Autoflush
-%define upstream_version 0.05
+%define upstream_name    Devel-Autoflush%define upstream_version 0.06
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	Set autoflush from the command line
 License:	GPL+ or Artistic
@@ -53,4 +52,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 * Fri Dec 24 2010 Shlomi Fish <shlomif@mandriva.org> 0.50.0-1mdv2011.0
 + Revision: 624622
 - import perl-Devel-Autoflush
+
 
