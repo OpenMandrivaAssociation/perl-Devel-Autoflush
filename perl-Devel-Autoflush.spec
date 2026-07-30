@@ -3,13 +3,13 @@
 
 Name:		perl-%{upstream_name}
 Version:	%{upstream_version}
-Release:	4
+Release:	1
 
 Summary:	Set autoflush from the command line
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://github.com/dagolden/Devel-Autoflush
-Source0:	https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Devel-Autoflush-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Devel-Autoflush-0.06.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -45,14 +45,4 @@ perl Makefile.PL INSTALLDIRS=vendor
 %doc README Changes LICENSE
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
-
-%changelog
-* Sun Apr 17 2011 Funda Wang <fwang@mandriva.org> 0.50.0-2mdv2011.0
-+ Revision: 654311
-- rebuild for updated spec-helper
-
-* Fri Dec 24 2010 Shlomi Fish <shlomif@mandriva.org> 0.50.0-1mdv2011.0
-+ Revision: 624622
-- import perl-Devel-Autoflush
-
 
