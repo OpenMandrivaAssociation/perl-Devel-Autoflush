@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	0.06
-Release:	2
+Release:	3
 
 Summary:	Set autoflush from the command line
 License:	GPL+ or Artistic
